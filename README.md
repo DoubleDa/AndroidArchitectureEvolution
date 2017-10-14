@@ -2,42 +2,14 @@
 
 A Android Architecture Evolution Project.
 
+
+[TOC]
+
+
+
 ## 原始架构
 
-```java
--adapter
-	-MainAdapter.java
--api
-	-NewsApi.java
--base
-	-BaseActivity.java
-    -BaseFragment.java
-    -BaseAdapter.java
--beans
-	-NewsBean.java
--constants
-	-Constants.java
--db
-	-DBHelper.java
--image.loader
-	-GlideUtils.java
--injection
-	-NewsComponent.java
--net
-	-OkHttpUtils.java
--service
-	-NewsUpdateService.java
--ui
-	-activity
-    	-NewsListActivity.java
-    -fragment
-    	-NewsDetailFragment.java
--utils
-	-SPUtils.java
--view
-	-NewsRefreshView.java
--XApplication.java
-```
+![](http://oqle0m5m6.bkt.clouddn.com/img_first_android_architecture.png)
 
 在比较原始的Android项目开发中通常采用基于MVC的架构设计，代码糅合在同一个Module中，相关包介绍如下：
 
@@ -80,3 +52,19 @@ A Android Architecture Evolution Project.
 - view
 
 	视图，此包存放与自定义View和自定义UI组件相关的类。
+
+## 模块化架构
+
+
+
+## 组件化架构
+
+
+
+## 插件化架构
+
+
+
+## 多进程架构
+
+
