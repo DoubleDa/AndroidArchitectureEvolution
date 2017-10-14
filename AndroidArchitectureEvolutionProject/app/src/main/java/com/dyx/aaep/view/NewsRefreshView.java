@@ -5,5 +5,5 @@ package com.dyx.aaep.view;
  * Function：
  */
 public class NewsRefreshView {
-    
+
 }
