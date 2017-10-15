@@ -11,6 +11,9 @@ A Android Architecture Evolution Project.
 
 ![](http://oqle0m5m6.bkt.clouddn.com/img_first_android_architecture.png)
 
+![](http://oqle0m5m6.bkt.clouddn.com/%E5%8E%9F%E5%A7%8BMVC%E6%A1%86%E6%9E%B6.png)
+
+
 在比较原始的Android项目开发中通常采用基于MVC的架构设计，代码糅合在同一个Module中，相关包介绍如下：
 
 - adapter
@@ -142,3 +145,10 @@ A Android Architecture Evolution Project.
 - 基于独立的JVM，各个模块可以充分解耦。
 - 只保留daemon进程的情况下，会使应用存活时间更长，不容易被回收掉。
 
+## 参考文献
+
+- [Android彻底组件化方案实践](http://www.jianshu.com/p/1b1d77f58e84)
+- [Android架构思考(模块化、多进程)](http://blog.csdn.net/nexttake/article/details/55211012)
+- [Android彻底组件化demo发布](http://www.jianshu.com/p/59822a7b2fad)
+- [微信Android模块化架构重构实践](http://geek.csdn.net/news/detail/208980)
+- [Android多进程使用场景](http://blog.csdn.net/qq_27489007/article/details/54377655)
