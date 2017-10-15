@@ -145,6 +145,17 @@ A Android Architecture Evolution Project.
 - 基于独立的JVM，各个模块可以充分解耦。
 - 只保留daemon进程的情况下，会使应用存活时间更长，不容易被回收掉。
 
+
+## 基于路由机制的App架构
+
+![](http://oqle0m5m6.bkt.clouddn.com/Android%E8%B7%AF%E7%94%B1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1.png)
+
+Android流行的路由框架：
+
+- [ARouter](https://github.com/alibaba/ARouter)
+- [ActivityRouter](https://github.com/mzule/ActivityRouter)
+- [Router](https://github.com/chenenyu/Router)
+
 ## 参考文献
 
 - [Android彻底组件化方案实践](http://www.jianshu.com/p/1b1d77f58e84)
@@ -152,3 +163,4 @@ A Android Architecture Evolution Project.
 - [Android彻底组件化demo发布](http://www.jianshu.com/p/59822a7b2fad)
 - [微信Android模块化架构重构实践](http://geek.csdn.net/news/detail/208980)
 - [Android多进程使用场景](http://blog.csdn.net/qq_27489007/article/details/54377655)
+- [Android路由实现](http://blog.csdn.net/qibin0506/article/details/53373412)
