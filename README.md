@@ -101,7 +101,17 @@ A Android Architecture Evolution Project.
 
 ## 插件化架构
 
+插件化框架图：
 
+![](http://oqle0m5m6.bkt.clouddn.com/%E6%8F%92%E4%BB%B6%E5%8C%96%E5%BC%80%E5%8F%91%E6%9E%B6%E6%9E%84.png)
+
+- Host
+
+	宿主，加载各个插件的容器。
+
+- Plugin
+
+	插件，将功能制作成一个插件，通过插件化加载框架加载到宿主，实现插件功能。
 
 ## 多进程架构
 
