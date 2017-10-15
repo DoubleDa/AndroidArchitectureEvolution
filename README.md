@@ -79,7 +79,25 @@ A Android Architecture Evolution Project.
 
 ## 组件化架构
 
+组件化框架架构图：
 
+![](http://oqle0m5m6.bkt.clouddn.com/%E7%BB%84%E4%BB%B6%E5%8C%96%E6%A1%86%E6%9E%B6%E5%9B%BE%20%281%29.png)
+
+- App
+
+	应用在release环境唯一的Application，通过添加依赖的形式引用各个组件，各个组件Application类中的工作都可以添加到app的Application类中实现。
+
+- 各个组件
+
+	将各个功能模块拆分成组件，这些组件可以单独设置为一个Applicationm进行开发、测试，各个组件的开发不会相互影响，实现了功能的并行开发，各个组件之间可以通过约定俗成的方式进行通信。
+
+- 依赖库
+
+	各个组件依赖库，组件功能不同依赖库随之不同，按需依赖。
+
+- 具体依赖组件
+
+	依赖库，包括基础功能依赖组件、公共功能依赖组件等。
 
 ## 插件化架构
 
